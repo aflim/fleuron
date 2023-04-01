@@ -175,4 +175,25 @@ adder(2, 6);
 // > 8
 {% endhighlight %}
 
+## Message
+<p class="msg">
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+</p>
+
+<p class="msg-info">
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+</p>
+
+<p class="msg-success">
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+</p>
+
+<p class="msg-warning">
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+</p>
+
+<p class="msg-danger">
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+</p>
+
 
