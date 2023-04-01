@@ -10,20 +10,23 @@
   --border-ink-on-light-1: hsl(0, 0%, 25.1%);
   --border-ink-on-light-2: hsl(0, 0%, 35.29%);
   --border-ink-on-light-3: hsl(0, 0%, 45.1%);
-  /*
-  --bg-info-on-light: hsl(240, 100%, 65.1%);
-  --bg-success-on-light: hsl(120, 100%, 94.9%);
-  --bg-warning-on-light: ;
-  --bg-danger-on-light: ;
+  
+  --bg-info-on-light: hsl(240, 100%, 85.1%);
+  --bg-success-on-light: hsl(120, 100%, 85.1%);
+  --bg-warning-on-light: hsl(60, 100%, 85.1%);
+  --bg-danger-on-light: hsl(0, 100%, 85.1%);
   --ink-info-on-light: hsl(240, 100%, 35.1%);
-  --ink-success-on-light: hsl(120, 100%, 25.1%);
-  --ink-warning-on-light: ;
-  --ink-danger-on-light: ;
+  --ink-success-on-light: hsl(120, 100%, 35.1%);
+  --ink-warning-on-light: hsl(60.47, 100%, 35.1%);
+  --ink-danger-on-light: hsl(0, 100%, 35.1%);
   --border-ink-info-on-light: hsl(240, 49.8%, 50%);
-  --border-ink-success-on-light: hsl(120, 29.92%, 50.2%);
-  --border-ink-warning-on-light: ;
-  --border-ink-danger-on-light: ;
-  */
+  --border-ink-success-on-light: hsl(120, 29.92%, 50%);
+  --border-ink-warning-on-light: hsl(60, 49.8%, 50%);
+  --border-ink-danger-on-light: hsl(0, 49.8%, 50%);
+  --link-ink-on-light: var(--ink-info-on-light);
+  --link-hover-ink-on-light: darken(var(--link-ink-on-light), 10%);
+  
+  color-scheme: light;
   --bg-1: var(--bg-light-1);
   --bg-2: var(--bg-light-2);
   --bg-3: var(--bg-light-3);
@@ -33,6 +36,26 @@
   --border-ink-1: var(--border-ink-on-light-1);
   --border-ink-2: var(--border-ink-on-light-2);
   --border-ink-3: var(--border-ink-on-light-3);
+  --bg-info: var(--bg-info-on-light);
+  --bg-success: var(--bg-success-on-light);
+  --bg-warning: var(--bg-warning-on-light);
+  --bg-danger: var(--bg-danger-on-light);
+  --ink-info: var(--ink-info-on-light);
+  --ink-success: var(--ink-success-on-light);
+  --ink-warning: var(--ink-warning-on-light);
+  --ink-danger: var(--ink-danger-on-light);
+  --border-ink-info: var(--border-ink-info-on-light);
+  --border-ink-success: var(--border-ink-success-on-light);
+  --border-ink-warning: var(--border-ink-warning-on-light);
+  --border-ink-danger: var(--border-ink-danger-on-light);
+  
+  --link-ink: var(--link-ink-on-light);
+  --link-hover-ink: var(--link-hover-ink-on-light);
+  
+  --spacer-base: 1em;
+  --spacer-up-1: calc(var(--spacer-base) * 1.25);
+  --spacer-up-2: calc(var(--spacer-base) * 1.5);
+  --spacer-up-3: calc(var(--spacer-base) * 2);
   
   --type-scale-down-2: .85em;
   --type-scale-down-1: .95em;
@@ -40,4 +63,13 @@
   --type-scale-up-1: 1.25em;
   --type-scale-up-2: 1.5em;
   --type-scale-up-3: 1.75em;
+  
+  --line-height-down-1: 1.25;
+  --line-height-base: 1.5;
+  
+  --border-radius-base: .25em;
+  
+  --font-base: sans-serif;
+  --font-monospace: monospace;
+  --font-ui: sans-serif;
 }
