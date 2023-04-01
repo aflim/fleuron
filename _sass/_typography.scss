@@ -82,7 +82,7 @@ figure {
   margin-block-end: var(--spacer-base);
   
   figcaption {
-    font-size: var(--type-scale-down-2);
+    font-size: var(--type-scale-down-1);
     line-height: var(--line-height-down-1);
     color: var(--ink-2);
   }
@@ -153,7 +153,7 @@ th {
   padding: .5em;
   border-style: solid;
   border-width: 0;
-  border-bottom-width: 1px;
+  border-block-end-width: 1px;
 }
 
 th {
