@@ -17,6 +17,9 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
 
 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
 
+## Rule/border
+---
+
 ## Inline style
 - **Bolder text**
 - *Italic text*
@@ -42,8 +45,6 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 1. Primary list
 2. Primary list
 3. Primary list
-
-1. Primary list
    1. Secondary list
       1. Tertiary list
 
@@ -151,6 +152,7 @@ YouTube embedded video
 Using `<pre>` tag
 <figure>
   <pre>
+    <code>
 // Example can be run directly in your JavaScript console
 
 // Create a function that takes two arguments and returns the sum of those arguments
@@ -159,6 +161,7 @@ var adder = new Function("a", "b", "return a + b");
 // Call the function
 adder(2, 6);
 // > 8
+    </code>
   </pre>
 </figure>
 
