@@ -44,8 +44,8 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 3. Primary list
 ---
 1. Primary list
-   1.1. Secondary list
-        1.2. Tertiary list
+   1. Secondary list
+      2. Tertiary list
 
 ## Figure
 ### Blockquote
