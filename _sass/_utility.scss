@@ -1,1 +1,54 @@
 /* utility.scss */
+
+.container {
+  max-inline-size: 35em;
+  padding-inline: var(--spacer-base);
+  margin-inline: auto;
+}
+
+.msg {
+  padding: var(--spacer-base);
+  margin-block-end: var(--spacer-base);
+  color: var(--ink-2);
+  background-color: var(--bg-2);
+  border: 1px solid var(--border-ink-2);
+  border-radius: var(--border-radius-base);
+}
+
+.msg-info {
+  padding: var(--spacer-base);
+  margin-block-end: var(--spacer-base);
+  color: var(--ink-info);
+  background-color: var(--bg-info);
+  border: 1px solid var(--border-ink-info);
+  border-radius: var(--border-radius-base);
+}
+
+.msg-success {
+  padding: var(--spacer-base);
+  margin-block-end: var(--spacer-base);
+  color: var(--ink-success);
+  background-color: var(--bg-success);
+  border: 1px solid var(--border-ink-success);
+  border-radius: var(--border-radius-base);
+}
+
+.msg-warning {
+  padding: var(--spacer-base);
+  margin-block-end: var(--spacer-base);
+  color: var(--ink-warning);
+  background-color: var(--bg-warning);
+  border: 1px solid var(--border-ink-warning);
+  border-radius: var(--border-radius-base);
+}
+
+.msg-danger {
+  padding: var(--spacer-base);
+  margin-block-end: var(--spacer-base);
+  color: var(--ink-danger);
+  background-color: var(--bg-danger);
+  border: 1px solid var(--border-ink-danger);
+  border-radius: var(--border-radius-base);
+}
+
+
