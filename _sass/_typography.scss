@@ -43,7 +43,7 @@ ol {
   
   ul,
   ol {
-    padding-inline-start: .5em;
+    padding-inline-start: var(--spacer-base);
     margin-block-start: .5em;
   }
   
@@ -59,7 +59,7 @@ ol {
   li::before {
     padding-inline-end: .5em;
     counter-increment: tiered-numb-list;
-    content: counters(tiered-numb-list, ".");
+    content: counters(tiered-numb-list, ".")".";
   }
 }
 
