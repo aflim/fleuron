@@ -60,6 +60,12 @@ ol li {
   list-style: decimal inside;
 }
 
+ul li::before,
+ol li::before {
+  padding-inline-end: .5em;
+  display: inline-block;
+}
+
 /*
 ul,
 ol {
