@@ -36,6 +36,19 @@ p {
 
 ul,
 ol {
+  list-style: none;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: var(--spacer-base);
+  
+  li {
+    margin-block-end: .75em;
+  }
+}
+
+/*
+ul,
+ol {
   padding-inline-start: var(--spacer-base);
   margin-block-start: 0;
   margin-block-end: var(--spacer-base);
@@ -45,7 +58,7 @@ ol {
     margin-block-end: .75em;
   }
 }
-
+*/
 dl {
   margin-block-start: 0;
   margin-block-end: var(--spacer-base);
