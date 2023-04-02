@@ -45,8 +45,23 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 1. Primary list
 2. Primary list
 3. Primary list
-   1. Secondary list
-      1. Tertiary list
+
+Tired number list
+1. Primary
+   1. Secondary primary
+      1. Tertiary primary
+      2. Tertiary primary
+   2. Secondary primary
+   3. Secondary primary
+2. Secondary
+   1. Secondary secondary
+   2. Secondary secondary
+      1. Tertiary secondary
+      2. Tertiary secondary
+   3. Secondary secondary
+3. Tertiary
+4. Fourth
+5. Fifth
 
 ## Definition list
 <dl>
