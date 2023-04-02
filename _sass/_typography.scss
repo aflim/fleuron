@@ -36,11 +36,12 @@ p {
 
 ul,
 ol {
-  padding-inline-start: 0;
+  //padding-inline-start: 0;
   margin-block-start: 0;
   margin-block-end: var(--spacer-base);
   
   li {
+    padding-inline-start: 0;
     margin-block-end: .75em;
   }
 }
