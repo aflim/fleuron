@@ -48,6 +48,7 @@ ol {
   }
   
   li {
+    padding-inline-start: 1em;
     margin-block-end: .75em;
   }
 }
@@ -58,12 +59,6 @@ ul li {
 
 ol li {
   list-style: decimal inside;
-}
-
-ul li::before,
-ol li::before {
-  padding-inline-end: .5em;
-  display: inline-block;
 }
 
 /*
