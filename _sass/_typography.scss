@@ -55,6 +55,7 @@ ol {
 
 ol {
   counter-reset: tiered-numb-list;
+  list-style-type: none;
   
   li::before {
     counter-increment: tiered-numb-list;
