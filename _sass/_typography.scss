@@ -53,6 +53,15 @@ ol {
   }
 }
 
+ol {
+  counter-reset: tiered-numb-list;
+  
+  li::before {
+    counter-increment: tiered-numb-list;
+    content: counters(tiered-numb-list, ".");
+  }
+}
+
 /*
 ul,
 ol {
